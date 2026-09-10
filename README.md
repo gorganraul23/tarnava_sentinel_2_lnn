@@ -41,10 +41,11 @@ results/
   robustness_summary.csv
   temporal_transfer_2024.csv
   uncertainty_summary.csv
+```
 
 ## Sample data
 
-The repository includes a small example file: data/samples/small_example_patch_timeseries.npz
+The repository includes a small example file: `data/samples/small_example_patch_timeseries.npz`
 
 The full Sentinel-2 exports and full model-ready caches are not included because of file size.
 
