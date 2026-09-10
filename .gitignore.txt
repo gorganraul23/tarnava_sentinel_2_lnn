@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large Earth Engine / model files
+*.tfrecord
+*.tfrecord.gz
+*.zip
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.keras
+
+# Ignore full NPZ files by default
+*.npz
+
+# Keep only the small public sample
+!data/samples/small_example_patch_timeseries.npz
+
+# OS files
+.DS_Store
+Thumbs.db
