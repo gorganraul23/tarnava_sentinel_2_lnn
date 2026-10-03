@@ -33,7 +33,11 @@ code/
   tarnava_50x50_models.py
 
 figures/
-  Figure_1_study_area_v4.png
+  study_area.pdf
+  temporal_irregularity.pdf
+  latent_grid_architecture.png
+  spatial_predictions.pdf
+  robustness_efficiency.pdf
 
 results/
   primary_model_comparison.csv
@@ -66,4 +70,4 @@ In the controlled experiment, CNN-CfC obtained the best mean test performance an
 
 Figure 1. Târnava Valley study area, spatial experimental split, ESA WorldCover labels, and selected 50 × 50 pixel Sentinel-2 patches.
 
-![Study area and experimental design](figures/Figure_1_study_area_v4.png)
+![Study area and experimental design](figures/study_area.pdf)
