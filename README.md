@@ -33,11 +33,11 @@ code/
   tarnava_50x50_models.py
 
 figures/
-  study_area.pdf
-  temporal_irregularity.pdf
+  study_area.png
+  temporal_irregularity.png
   latent_grid_architecture.png
-  spatial_predictions.pdf
-  robustness_efficiency.pdf
+  spatial_predictions.png
+  robustness_efficiency.png
 
 results/
   primary_model_comparison.csv
@@ -68,6 +68,30 @@ In the controlled experiment, CNN-CfC obtained the best mean test performance an
 
 ## Study area
 
-Figure 1. Târnava Valley study area, spatial experimental split, ESA WorldCover labels, and selected 50 × 50 pixel Sentinel-2 patches.
+Târnava Valley study area, spatial experimental split, ESA WorldCover labels, and selected 50 × 50 pixel Sentinel-2 patches.
 
-![Study area and experimental design](figures/study_area.pdf)
+![Study area and experimental design](figures/study_area.png)
+
+## Temporal irregularity of Sentinel-2 observations
+
+Temporal distribution and irregularity of the Sentinel-2 observations used in the experiment.
+
+![Temporal irregularity](figures/temporal_irregularity.png)
+
+## Spatio-temporal model architecture
+
+General architecture used for spatial feature extraction and temporal modelling with recurrent and continuous-time neural modules.
+
+![Spatio-temporal architecture](figures/latent_grid_architecture.png)
+
+## Spatial prediction examples
+
+Qualitative examples of land-cover predictions for selected Sentinel-2 test patches.
+
+![Spatial predictions](figures/spatial_predictions.png)
+
+## Robustness and parameter efficiency
+
+Robustness under reduced temporal observations and parameter-efficiency comparison between temporal models.
+
+![Robustness and efficiency](figures/robustness_efficiency.png)
